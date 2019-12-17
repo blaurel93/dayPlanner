@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700&display=swap');
+
+/* font-family: 'Josefin Sans', sans-serif; */
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+}
+p {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.row {
+    background-color: grey;
+    width: 100%;
+    height: 70px;
+    margin-top: 10px;
+}
+.rowbottom {
+    margin-bottom: 40px;
+}
+.time {
+    background-color: blue;
+    width: 10%;
+    height: 70px;
+    border-radius: 30px;
+}
+.timerColor {
+    background-color: red;
+}
+.timerSpot {
+    margin-left: 40px;
+    margin-top: 17px;
+}
+.userInput {
+    width: 66.5%;
+    height: 70px;
+    background-color: green;
+    border-radius: 30px;
+}
+.saveButton {
+    background-color: red;
+    width: 10%;
+    height: 70px;
+    margin-left: 1px;
+    border-radius: 30px;
+}
+.saveBtn {
+    margin-top: 13%;
+    margin-left: 25%;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+.saveBtn:hover {
+    background-color: white;
+    color: black;
+}
+.inputSpot {
+    margin-top: 20px;
+    width: 90%;
+    margin-left: 35px;
+}
+#realtime {
+    background-color: black;
+    width: 500px;
+    height: 70px;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}

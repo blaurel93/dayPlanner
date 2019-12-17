@@ -5,20 +5,131 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 </head>
 
 <body>
+    <h1>Work Day Schedule</h1>
+    <p>Helping to keep track of things</p>
+    <div id="realtime"></div>
+    <div class="container">
+        <div class="row">
+            <div class="time timerColor col-lg-2">
+                <h3 class="timerSpot" id="time1">09:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time2">10:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time3">11:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time4">12:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time5">13:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time6">14:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time7">15:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time8">16:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+        <div class="row rowbottom">
+            <div class="time col-lg-2">
+                <h3 class="timerSpot" id="time9">17:00</h3>
+            </div>
+            <div class="userInput">
+                <input class="inputSpot" id="userChoice" value="Whatcha doin?"
+                    onfocus="if (this.value=='Whatcha doin?') this.value='';"></input>
+            </div>
+            <div class="saveButton col-lg-2">
+                <button class="saveBtn">Save</button>
+            </div>
+        </div>
+    </div>
 
-
-
-
-
-
-
-
-
-
+    <script src="jump.js"></script>
+    <script src="moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.js"></script>
 </body>
 
 </html>
